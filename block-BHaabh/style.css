@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---start---*/
+*
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+}
+/*---clearfix---*/
+.clearfix::after,
+.clearfix::before {
+    display:tabel;
+}
+.clearfix::after{
+    clear: both;
+}
+
+header {
+    background-color: rgb(83,133,193);
+    height: 300px;
+}
+
+
+.theory{
+    float: left;
+    color: white;
+    margin: 20px;
+}
+p {
+    color: white;
+}
+h3{
+    font-size: 28px;
+    color: blue;
+}
+.p1{
+    color: black;
+    width: 30%;
+}
+.nav{
+    float: right;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 30px;
+}
+.clear{
+    clear: both;
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 36px;
+    color: white;
+}
+p{
+    text-align: center;
+}
+.container {
+    clear: both;
+    margin: auto;
+    width: 1220x;
+    padding: 32px;
+    background-color: rgb(255,255,255);
+    border: 2px solid yellow;
+    /* display: inline-block; */
+}
+button{
+    background-color: rgb(206, 206, 221);
+}
+article {
+    float: right;
+    width: 30%;
+    padding: 20px;
+}
+/*---gallery--*/
+.gallery {
+    clear: both;
+    background-color: rgb(83,133,193);
+    height: 400px;
+}
+img{
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 40px;
+
+}
+div{
+    float: left;
+}
+
+/*---containt---*/
+.containt {
+    clear: both;
+    margin: auto;
+    /* width: 1220x; */
+    background-color: rgb(255,255,255);
+    display: inline-block;
+    /* padding: 32px; */
+}
+.image {
+    width: 100%;
+    border-radius: 0px;
+    border: 2px solid black;
+}
+
+.article {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin: 50px;
+}
+
+.footer{
+    float: left;
+    text-align: center;
+    background-color: grey;
+    height: 100px;
+    width: 1300px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+  .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+ 
+  .icons{
+      float: right;
+  }
